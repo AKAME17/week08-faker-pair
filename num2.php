@@ -13,16 +13,15 @@ $genres = ["Fiction", "Mystery", "Science Fiction", "Fantasy", "Romance", "Thril
     <title>Fake Books List</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Custom Pink Theme */
         body {
-            background-color: #ffe6f2; /* Soft pink background */
+            background-color: #ffe6f2; 
         }
         .table thead {
-            background-color: #ff66b2 !important; /* Pink table header */
+            background-color: #ff66b2 !important; 
             color: white;
         }
         .table tbody tr:hover {
-            background-color: #ffccdd !important; /* Light pink row hover effect */
+            background-color: #ffccdd !important; 
         }
         .container {
             background: white;
@@ -70,7 +69,6 @@ $genres = ["Fiction", "Mystery", "Science Fiction", "Fantasy", "Romance", "Thril
     </div>
 </div>
 
-<!-- Bootstrap JS (Optional) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

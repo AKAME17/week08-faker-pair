@@ -1,7 +1,7 @@
 <?php
 require_once 'vendor/autoload.php';
 
-$faker = Faker\Factory::create('fil_PH'); // Set to Filipino locale
+$faker = Faker\Factory::create('fil_PH'); 
 ?>
 
 <!DOCTYPE html>
@@ -12,16 +12,15 @@ $faker = Faker\Factory::create('fil_PH'); // Set to Filipino locale
     <title>Fake User Profiles</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Custom Pink Theme */
         body {
-            background-color: #ffe6f2; /* Soft pink background */
+            background-color: #ffe6f2;
         }
         .table thead {
-            background-color: #ff66b2 !important; /* Pink table header */
+            background-color: #ff66b2 !important; 
             color: white;
         }
         .table tbody tr:hover {
-            background-color: #ffccdd !important; /* Light pink row hover effect */
+            background-color: #ffccdd !important;
         }
         .container {
             background: white;
@@ -30,7 +29,7 @@ $faker = Faker\Factory::create('fil_PH'); // Set to Filipino locale
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            color: #ff3385; /* Pink title */
+            color: #ff3385; 
         }
     </style>
 </head>
@@ -69,7 +68,7 @@ $faker = Faker\Factory::create('fil_PH'); // Set to Filipino locale
     </div>
 </div>
 
-<!-- Bootstrap JS (Optional) -->
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
